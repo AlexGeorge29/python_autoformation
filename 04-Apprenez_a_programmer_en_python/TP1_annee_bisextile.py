@@ -1,4 +1,4 @@
-# -*-coding:Latin-1 -*
+# -*-coding:utf-8 -*
 
 # Si une année n'est pas multiple de 4, on s'arrête là, elle n'est pas bissextile.
 # Si elle est multiple de 4, on regarde si elle est multiple de 100.
