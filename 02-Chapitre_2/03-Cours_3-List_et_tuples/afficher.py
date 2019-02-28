@@ -1,11 +1,11 @@
 # -*-coding:utf-8 -*
-def afficher(*values):
+def afficher(sep=' ',fin='\n', *values):
   values = list(values)
   for i, value in enumerate(values):
     values[i] = str(value)
     i += 1
-  chaine = ' '.join(values)
+  chaine = sep.join(values) + fin
   print(chaine)
 
 
-afficher("hello", "je", "test", 3)
+afficher(' ', '\n', "hello", "je", "test", 3)
