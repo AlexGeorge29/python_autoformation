@@ -1,5 +1,5 @@
 # -*-coding:utf-8 -*
-def afficher(sep=' ',fin='\n', *values):
+def afficher(*values, sep=' ',fin='\n'):
   values = list(values)
   for i, value in enumerate(values):
     values[i] = str(value)
